@@ -36,7 +36,7 @@ df = (df.reset_index(drop=True))
 #  =====================================================================================
 
 ii = -1
-for i, j in zip(df[col[0]].isna().tolist(), df[col[1]].isna().tolist() ):
+for i, j in zip(df[col[0]].isna().tolist(), df[col[3]].isna().tolist() ):
     ii += 1
     if i == True or j == True:
         df = df.drop([ii])
@@ -139,9 +139,9 @@ plt.tight_layout()
 df_BCC = df.drop(df[(df['Structure']!='BCC')].index)
 df_FCC = df.drop(df[(df['Structure']!='FCC')].index)
 df_HCP = df.drop(df[(df['Structure']!='HCP')].index)
-x_BCC = np.vstack(( df_BCC[col[0]].tolist(), df_BCC[col[2]].tolist() ))
-x_FCC = np.vstack(( df_FCC[col[0]].tolist(), df_FCC[col[2]].tolist() ))
-x_HCP = np.vstack(( df_HCP[col[0]].tolist(), df_HCP[col[2]].tolist() ))
+x_BCC = np.vstack(( df_BCC[col[0]].tolist(), df_BCC[col[3]].tolist() ))
+x_FCC = np.vstack(( df_FCC[col[0]].tolist(), df_FCC[col[3]].tolist() ))
+x_HCP = np.vstack(( df_HCP[col[0]].tolist(), df_HCP[col[3]].tolist() ))
 rho_BCC = np.corrcoef(x_BCC)
 rho_FCC = np.corrcoef(x_FCC)
 rho_HCP = np.corrcoef(x_HCP)
