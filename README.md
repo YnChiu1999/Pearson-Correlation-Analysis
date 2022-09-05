@@ -11,7 +11,7 @@ $ python Pearson_Correlations.py
 
 
 ### Step 2：針對由核密度估計圖（kernel density estimation)取得的資訊，進一步進行皮爾森積動差相關係數分析，計算出數據相關性係數。
-![image](https://user-images.githubusercontent.com/111637364/188358107-a943841b-7c6e-40a9-af92-034328ade198.png)
+![image](https://user-images.githubusercontent.com/111637364/188369720-b1ef8227-b95b-4290-a940-de9e0ea582f0.png)
 
-### Step 3：繪製週期表熱力圖(heatmap)取視覺化。
+### Step 3：選取想要視覺化的元素，繪製週期表熱力圖(heatmap)。
 ![image](https://user-images.githubusercontent.com/111637364/188358128-3a75d0a4-96de-453b-bba3-3cc92ad348d6.png)
