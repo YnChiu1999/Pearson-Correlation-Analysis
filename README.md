@@ -1,5 +1,5 @@
 # Pearson-Correlation-Analysis
-皮爾森積動差相關係數分析：利用Python分析週期表元素特定間的相關性
+隨機森林(RandomForestRegressor) + 皮爾森積動差相關係數分析：利用Python分析週期表元素特定間的相關性
 
 結合Python與計算材料科學，提供分析週期表元素特性與材料性能分析的實作案例。(未來將納入機器學習)
 
@@ -8,6 +8,19 @@
 ```
 $ python Pearson_Correlations.py
 ```
+
+### Step 0：透過機器學習中的隨機森林(RandomForestRegressor)回歸器，探討數據中的重要特徵。
+### (1) 將(線性)模型的數據轉化為正態分佈
+##### # 正態化之前的數據分布
+![image](https://user-images.githubusercontent.com/111637364/189491387-c191bff2-8be3-47a2-97eb-56bcf85fb223.png)
+
+##### # 正態化之後的數據分布
+![image](https://user-images.githubusercontent.com/111637364/189491407-1965d4f3-d475-4d6d-b25d-431c476a8f51.png)
+
+#### (2) 查看各特徵與預測目標的相關性，找出其中較重要的特徵。
+###### # 特徵重要性(Feature Importance) & 特徵置換重要性(Feature Importance)
+![image](https://user-images.githubusercontent.com/111637364/189491654-6fbd1db2-4415-4b94-b331-4ab56dc53bd0.png)
+
 ### Step 1：繪製核密度估計圖（kernel density estimation)，幫助判斷數據特徵分布。
 ![image](https://user-images.githubusercontent.com/111637364/188358075-2f956fe1-fe1e-4da6-a834-c20a34c09b70.png)
 
