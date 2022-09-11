@@ -5,7 +5,7 @@
 
 ## 使用方式
 
-### Step 0：透過機器學習中的隨機森林(RandomForestRegressor)回歸器，探討數據中的重要特徵。
+### Step 0：透過機器學習中的隨機森林回歸器(RandomForestRegressor)，探討數據中的重要特徵。
 ### (1) 將(線性)模型的數據轉化為正態分佈
 ##### # 正態化之前的數據分布
 ![image](https://user-images.githubusercontent.com/111637364/189491387-c191bff2-8be3-47a2-97eb-56bcf85fb223.png)
