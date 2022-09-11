@@ -19,7 +19,7 @@
 
 #### (3) 查看各特徵與預測目標的相關性，找出其中較重要的特徵。   
 ###### # 特徵重要性(Feature Importance) & 特徵置換重要性(Feature Importance)
-![image](https://user-images.githubusercontent.com/111637364/189491654-6fbd1db2-4415-4b94-b331-4ab56dc53bd0.png)
+![image](https://user-images.githubusercontent.com/111637364/189535024-a148f047-4c13-4b22-82f3-da80c8fa5acc.png)
 
 ```
 $ python Pearson_Correlations.py
