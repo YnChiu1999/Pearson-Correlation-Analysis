@@ -5,10 +5,6 @@
 
 ## 使用方式
 
-```
-$ python Pearson_Correlations.py
-```
-
 ### Step 0：透過機器學習中的隨機森林(RandomForestRegressor)回歸器，探討數據中的重要特徵。
 ### (1) 將(線性)模型的數據轉化為正態分佈
 ##### # 正態化之前的數據分布
@@ -21,6 +17,9 @@ $ python Pearson_Correlations.py
 ###### # 特徵重要性(Feature Importance) & 特徵置換重要性(Feature Importance)
 ![image](https://user-images.githubusercontent.com/111637364/189491654-6fbd1db2-4415-4b94-b331-4ab56dc53bd0.png)
 
+```
+$ python Pearson_Correlations.py
+```
 ### Step 1：繪製核密度估計圖（kernel density estimation)，幫助判斷數據特徵分布。
 ![image](https://user-images.githubusercontent.com/111637364/188358075-2f956fe1-fe1e-4da6-a834-c20a34c09b70.png)
 
