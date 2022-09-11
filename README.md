@@ -1,4 +1,4 @@
-# Pearson-Correlation-Analysis
+# RandomForestRegressor-PearsonCorrelationAnalysis
 隨機森林(RandomForestRegressor) + 皮爾森積動差相關係數分析：利用Python分析週期表元素特定間的相關性
 
 結合Python機器學習及計算材料科學，提供分析週期表元素特性與材料性能分析的實作案例。
@@ -13,7 +13,11 @@
 ##### # 正態化之後的數據分布
 ![image](https://user-images.githubusercontent.com/111637364/189491407-1965d4f3-d475-4d6d-b25d-431c476a8f51.png)
 
-#### (2) 查看各特徵與預測目標的相關性，找出其中較重要的特徵。
+#### (2) 特徵選擇(Feature selection)
+##### # Pairwise correlation:將相互關聯性太高的數據屏除，減少訓練時間，提升模型可解釋性   
+![image](https://user-images.githubusercontent.com/111637364/189534906-898b8002-7833-4781-b694-c699114d315d.png)
+
+#### (3) 查看各特徵與預測目標的相關性，找出其中較重要的特徵。   
 ###### # 特徵重要性(Feature Importance) & 特徵置換重要性(Feature Importance)
 ![image](https://user-images.githubusercontent.com/111637364/189491654-6fbd1db2-4415-4b94-b331-4ab56dc53bd0.png)
 
