@@ -14,7 +14,10 @@
 ![image](https://user-images.githubusercontent.com/111637364/189491407-1965d4f3-d475-4d6d-b25d-431c476a8f51.png)
 
 #### (2) 特徵選擇(Feature selection)
-##### # Pairwise correlation:將相互關聯性太高的數據屏除，減少訓練時間，提升模型可解釋性   
+##### # 考慮Pairwise correlation:將相互關聯性太高的數據屏除，透過clustermap找出彼此相關性較高的特徵   
+![image](https://user-images.githubusercontent.com/111637364/190912749-f704b325-a248-48f0-85b9-e1300709972c.png)
+
+##### # 將相互關聯性太高的數據去除，減少訓練時間，提升模型可解釋性   
 ![image](https://user-images.githubusercontent.com/111637364/189534906-898b8002-7833-4781-b694-c699114d315d.png)
 
 #### (3) 查看各特徵與預測目標的相關性，找出其中較重要的特徵。   
