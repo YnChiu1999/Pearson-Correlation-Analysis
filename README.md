@@ -1,7 +1,7 @@
 # RandomForestRegressor-PearsonCorrelationAnalysis
 隨機森林(RandomForestRegressor) + 皮爾森積動差相關係數分析：利用Python分析週期表元素特定間的相關性
 
-結合Python機器學習及計算材料科學，比較多種機器學習模型後選定"隨機森林回歸器(RandomForestRegressor)"將11種原子特性透過特徵選取降維至6個重要特性，將此6種重要特徵對材料重要特性(Segregation energy)作機器學習回歸，提供分析週期表元素特性與材料性能分析的實作案例！！！！
+結合Python機器學習及計算材料科學，比較多種機器學習模型後選定"隨機森林回歸器(RandomForestRegressor)"將11種原子特性透過特徵選取降維至6個重要特性，將此6種重要特徵對材料重要特性(Segregation energy)作機器學習回歸，提供分析週期表元素特性與材料性能分析的實作案例！！！！！！
 
 ## 使用方式
 
